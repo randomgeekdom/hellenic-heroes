@@ -6,12 +6,18 @@ defineProps<{
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
-      You’ve successfully created a project with
-      <a target="_blank" href="https://vitejs.dev/">Vite</a> +
-      <a target="_blank" href="https://vuejs.org/">Vue 3</a>. What's next?
-    </h3>
+    <p>
+      In a time of gods and myth, where monsters roam ancient Greece, heroes
+      arose to fight the threats to humanity. They are the
+    </p>
+    <br />
+    <h1>
+      <img src="hh-logo.png" />
+    </h1>
+    <p>
+      Hellenic Heroes is a tabletop RPG intended for 3 or more players to take
+      on the roles of mythical heroes in ancient Greece.
+    </p>
   </div>
 </template>
 
