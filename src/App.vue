@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
-import HeaderMast from "@/components/HeaderMast.vue";
+import HeaderMast from "./components/HeaderMast.vue";
 </script>
 
 <template>
@@ -44,12 +44,6 @@ a,
   text-decoration: none;
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
 }
 
 nav {

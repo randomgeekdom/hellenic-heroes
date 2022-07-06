@@ -8,11 +8,11 @@ defineProps<{
   <div class="greetings">
     <p>
       In a time of gods and myth, where monsters roam ancient Greece, heroes
-      arose to fight the threats to humanity. They are the
+      rise to fight the threats to humanity. They are the
     </p>
     <br />
     <h1>
-      <img src="hh-logo.png" />
+      <router-link to="/"><img src="hh-logo.png" /></router-link>
     </h1>
     <p>
       Hellenic Heroes is a tabletop RPG intended for 3 or more players to take
